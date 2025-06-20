@@ -38,9 +38,18 @@ company_mitsui = {
 
 	possible = {
 		has_technology_researched = cotton_gin
-		custom_tooltip = {
-			text = is_meiji_japan
-			has_variable = meiji_restoration_complete
+		OR = {
+			custom_tooltip = {
+				text = is_meiji_japan
+				has_variable = meiji_restoration_complete
+			}
+			AND = {
+				custom_tooltip = {
+					text = honorable_restoration_failed
+					has_variable = meiji_restoration_failed
+				}
+				NOT = { has_modifier = honorable_restoration_failed }
+			}
 		}
 		any_scope_state = {
 			state_region = s:STATE_KANSAI
@@ -59,9 +68,18 @@ company_mitsui = {
 
 	ai_will_do = {
 		has_technology_researched = cotton_gin
-		custom_tooltip = {
-			text = is_meiji_japan
-			has_variable = meiji_restoration_complete
+		OR = {
+			custom_tooltip = {
+				text = is_meiji_japan
+				has_variable = meiji_restoration_complete
+			}
+			AND = {
+				custom_tooltip = {
+					text = honorable_restoration_failed
+					has_variable = meiji_restoration_failed
+				}
+				NOT = { has_modifier = honorable_restoration_failed }
+			}
 		}
 		any_scope_state = {
 			state_region = s:STATE_KANSAI
@@ -110,9 +128,18 @@ company_mantetsu = {
 	possible = {
 		country_or_subject_owns_entire_state_region = STATE_SHENGJING
 		has_technology_researched = railways
-		custom_tooltip = {
-			text = is_meiji_japan
-			has_variable = meiji_restoration_complete
+		OR = {
+			custom_tooltip = {
+				text = is_meiji_japan
+				has_variable = meiji_restoration_complete
+			}
+			AND = {
+				custom_tooltip = {
+					text = honorable_restoration_failed
+					has_variable = meiji_restoration_failed
+				}
+				NOT = { has_modifier = honorable_restoration_failed }
+			}
 		}
 		any_scope_state = {
 			OR = {
@@ -135,9 +162,18 @@ company_mantetsu = {
 	ai_will_do = {
 		country_or_subject_owns_entire_state_region = STATE_SHENGJING
 		has_technology_researched = railways
-		custom_tooltip = {
-			text = is_meiji_japan
-			has_variable = meiji_restoration_complete
+		OR = {
+			custom_tooltip = {
+				text = is_meiji_japan
+				has_variable = meiji_restoration_complete
+			}
+			AND = {
+				custom_tooltip = {
+					text = honorable_restoration_failed
+					has_variable = meiji_restoration_failed
+				}
+				NOT = { has_modifier = honorable_restoration_failed }
+			}
 		}
 		any_scope_state = {
 			OR = {
@@ -196,9 +232,18 @@ company_mitsubishi = {
 
 	possible = {
 		has_technology_researched = ironclad_tech
-		custom_tooltip = {
-			text = is_meiji_japan
-			has_variable = meiji_restoration_complete
+		OR = {
+			custom_tooltip = {
+				text = is_meiji_japan
+				has_variable = meiji_restoration_complete
+			}
+			AND = {
+				custom_tooltip = {
+					text = honorable_restoration_failed
+					has_variable = meiji_restoration_failed
+				}
+				NOT = { has_modifier = honorable_restoration_failed }
+			}
 		}
 		any_scope_state = {
 			state_region = s:STATE_CHUGOKU
@@ -220,9 +265,18 @@ company_mitsubishi = {
 
 	ai_will_do = {
 		has_technology_researched = ironclad_tech
-		custom_tooltip = {
-			text = is_meiji_japan
-			has_variable = meiji_restoration_complete
+		OR = {
+			custom_tooltip = {
+				text = is_meiji_japan
+				has_variable = meiji_restoration_complete
+			}
+			AND = {
+				custom_tooltip = {
+					text = honorable_restoration_failed
+					has_variable = meiji_restoration_failed
+				}
+				NOT = { has_modifier = honorable_restoration_failed }
+			}
 		}
 		any_scope_state = {
 			state_region = s:STATE_CHUGOKU
