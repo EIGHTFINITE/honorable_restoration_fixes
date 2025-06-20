@@ -1,0 +1,12 @@
+{
+  "name" : "honorable_restoration_fixes",
+  "id" : "",
+  "version" : "1.0",
+  "supported_game_version" : "1.9.*",
+  "short_description" : "",
+  "tags" : ["Balance", "Cultures And Religions", "Fixes", "Gameplay"],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}
