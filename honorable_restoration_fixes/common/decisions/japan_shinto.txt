@@ -6,9 +6,18 @@
 	}
 
 	possible = {
-		custom_tooltip = {
-			text = is_meiji_japan
-			has_variable = meiji_restoration_complete
+		OR = {
+			custom_tooltip = {
+				text = is_meiji_japan
+				has_variable = meiji_restoration_complete
+			}
+			AND = {
+				custom_tooltip = {
+					text = honorable_restoration_failed
+					has_variable = meiji_restoration_failed
+				}
+				NOT = { has_modifier = honorable_restoration_failed }
+			}
 		}
 		ig:ig_devout = {
 			is_marginal = no
