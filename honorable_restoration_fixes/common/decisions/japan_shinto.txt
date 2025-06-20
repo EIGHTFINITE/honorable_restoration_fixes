@@ -24,6 +24,7 @@
 		}
 		has_law = law_type:law_monarchy
 		NOT = { has_law = law_type:law_state_religion }
+		NOT = { has_law = law_type:law_state_atheism }
 	}
 
 	when_taken = {
